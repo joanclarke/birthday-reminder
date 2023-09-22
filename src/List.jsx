@@ -5,7 +5,7 @@ const List = ({ people }) => {
   return (
     <section>
       {people.map((person) => {
-        console.log(person.name)
+        // console.log(person.name)
         return <Person key={person.id} {...person} />
       })}
     </section>
